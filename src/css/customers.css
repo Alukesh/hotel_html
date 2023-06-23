@@ -1,0 +1,76 @@
+.customers .card {
+    padding: 50px 37px;
+    background: #F6FCFA;
+    border: none;
+    color: #6D7589;
+
+}
+.customers > p{
+    font-family: 'Average Sans';
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.045em;
+color: #959595;
+}
+
+
+.customers__img {
+    margin-bottom: 24px;
+    object-fit: cover;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+}
+
+.customers__card-title {
+    font-family: 'Work Sans';
+    color: #101828;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.customers__card-subtitle {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 26px;
+}
+
+.customers__card-text {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 14px;
+    color: #6D7589;
+    letter-spacing: 0.02em;
+}
+
+
+.customers >.slick-slider .slick-track,
+.slick-slider .slick-list {
+    padding: 26px 0;
+}
+
+.customers .slick-active div {
+    box-shadow: none !important;
+}
+
+.customers .slick-active+.slick-active>div {
+    background: rgba(113, 136, 170, 0.55);
+    transform: translateY(-30px);
+    transition: all .3s;
+    box-shadow: 0px 10px 19px rgba(66, 66, 66, 0.2) !important;
+}
+.customers .slick-active+.slick-active>div *{
+    color: #fff ;
+}
+
+.customers .slick-active+.slick-active+.slick-active>div {
+    transform: none;
+    background: #F6FCFA;
+    
+    box-shadow: none !important;
+}
+.customers .slick-active+.slick-active+.slick-active>div *{
+    color: #6D7589;
+
+}

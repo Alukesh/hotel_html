@@ -1,0 +1,344 @@
+.banner {
+    background: #EAEFF6;
+}
+
+.banner__wrapper {
+    display: flex;
+    padding-top: 90px;
+
+}
+
+.banner__title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #3D4550;
+    margin-bottom: 16px;
+}
+
+.banner__info {
+    max-width: 447px;
+    margin-right: 124px;
+    padding-top: 100px;
+}
+
+.banner__info p {
+    margin-bottom: 36px;
+}
+
+.banner__buttons {
+    flex-wrap: wrap;
+    justify-content: start;
+    column-gap: 44px;
+    row-gap: 12px;
+}
+
+.banner__info-play {
+    border: none;
+    /* margin-left: 44px; */
+    background: transparent;
+}
+
+.banner__ellipse {
+    background: url('../images/ellipse1.png') center/contain no-repeat;
+    aspect-ratio: 1/1;
+    position: absolute;
+    bottom: -10px;
+    /* top: 0; */
+    width: 100%;
+    max-width: 560px;
+}
+
+.banner__tower {
+    z-index: 1;
+    position: relative;
+    /* bottom: -140px; */
+    /* width: 100%; */
+    right: -120px;
+}
+
+.banner__panel {
+    position: absolute;
+    left: -130px;
+    bottom: 100px;
+}
+
+.banner__circle {
+    position: absolute;
+    background: #C9D6E9;
+    border-radius: 50%;
+    /* aspect-ratio: 1/1; */
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+
+.banner__circle.num1 {
+    width: 10px;
+    height: 10px;
+    bottom: 100px;
+    left: -200px;
+    animation-duration: 12s;
+}
+
+.banner__circle.num2 {
+    width: 21px;
+    height: 21px;
+    top: 90px;
+    animation-duration: 15s;
+}
+
+.banner__circle.num3 {
+    width: 41px;
+    height: 41px;
+    top: 0;
+    right: 154px;
+    animation-duration: 8s;
+}
+
+.banner__circle.num4 {
+    width: 27px;
+    height: 27px;
+    bottom: 51px;
+    right: 140px;
+    animation-duration: 6s;
+}
+
+
+
+.inTouch {
+    background: #B1BED0;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 73px 0;
+    /* !important; */
+    position: relative;
+    overflow: hidden;
+}
+
+.inTouch p {
+    color: white;
+}
+
+.inTouch__title {
+    max-width: 533px;
+    /* !important; */
+    margin: 0 auto;
+}
+
+
+.inTouch__form input::placeholder {
+    color: #A2A2A2;
+}
+
+.inTouch__form input {
+    box-shadow: 0px 2px 12px rgba(52, 52, 52, 0.15);
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    width: 354px;
+    max-width: 80%;
+    padding: 13px 19px;
+    margin-right: -10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.inTouch__form button {
+    background: #889CB9;
+    box-shadow: -3px 2px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.inTouch .arrows-1,
+.inTouch .arrows-2 {
+    width: 98px;
+    height: 98px;
+    object-fit: contain;
+    position: absolute;
+}
+
+.inTouch .arrows-1 {
+    top: -10px;
+    right: -10px;
+}
+
+.inTouch .arrows-2 {
+    bottom: -10px;
+    left: -10px;
+}
+
+
+.rooms {}
+
+.rooms__card {}
+
+.rooms__card p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 55px;
+    color: #131313;
+}
+
+.rooms__card small {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #727272;
+}
+
+.rooms__card small span {
+    margin-right: 17px;
+}
+
+.rooms__card .bold {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 30px;
+    color: #384D6C;
+}
+
+
+
+.Facilities__border h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #131313;
+}
+
+.Facilities__border {
+    border: 1px solid #596B86;
+    border-radius: 2px;
+    height: 100%;
+    padding: 20px 30px;
+    /* !important; */
+    font-family: 'Average Sans';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #9B9B9B;
+}
+
+.Facilities__wrapper>div {
+    margin-top: 0;
+    padding: 15px;
+}
+
+
+.counts__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Average Sans';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #939393;
+}
+
+.counts__col p {
+    font-weight: 700;
+    font-size: 50px;
+    display: inline;
+    color: #596B86;
+}
+
+.counts__col:not(:last-child) {
+    border-right: 1.5px solid #C4C4C4;
+    ;
+}
+
+
+.news .card,
+.room .card {
+    overflow: hidden;
+}
+
+.news img,
+.room img {
+    transform: scale(1);
+    transition: all .6s;
+}
+
+.news img:hover,
+.room img:hover {
+    transform: scale3d(1.1, 1.1, 2) translateY(-5%);
+}
+
+
+
+.discover {
+    background: #F6FCFA;
+    padding-right: 0 !important;
+}
+
+.discover__text {
+    font-family: 'Average Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #686868;
+    margin-bottom: 31px;
+    max-width: 401px;
+}
+
+.discover__title {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 40px;
+    color: #353637;
+}
+
+.discover__bg {
+    width: 100%;
+}
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(40px, -30px);
+        width: 40px;
+        height: 40px;
+        opacity: .3;
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@media (max-width: 510px) {
+    .banner__wrapper {
+        flex-direction: column;
+    }
+
+    .banner__tower {
+        width: 90%;
+        left: 200px;
+    }
+
+    .banner__ellipse {
+        left: 100px;
+    }
+
+    .banner__panel {
+        bottom: 0px;
+    }
+
+    .banner__info {
+        padding-top: 0;
+    }
+
+    .banner__buttons {}
+}

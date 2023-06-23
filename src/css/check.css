@@ -1,0 +1,72 @@
+.check {
+    padding-left: 0 !important;
+}
+
+.check__wrapper {
+    background: #F6FCFA;
+    /* min-height: 637px; */
+    /* height: 637px; */
+}
+.check__img {
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.check__bg {
+    display: flex;
+    align-items: end;
+    background: #B1BECF;
+    /* background:#f00; */
+    height: 100%;
+}
+
+.check__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.check__label {
+    width: 100%;
+}
+
+.check__label p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+    color: #222426;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url('../images/input-caldar.svg') no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+.check__input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ABABAB;
+    border-radius: 2px;
+    height: 50px;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #636461;
+}
+
+.check__btn {
+    background: transparent;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222426;
+    border: 1.5px solid #596B86;
+    border-radius: 2px;
+}
